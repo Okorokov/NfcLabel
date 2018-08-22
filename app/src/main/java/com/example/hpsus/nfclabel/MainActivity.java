@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                     tagInfo += techList[i] + "\n ";
                 }
 
-                textViewInfo.setText(tagInfo);
+                textViewInfo.setText(tagInfo+"....");
             }
         }else{
             Toast.makeText(this,
