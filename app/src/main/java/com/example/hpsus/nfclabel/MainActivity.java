@@ -70,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
                     tagInfo += techList[i] + "\n ";
                 }
 
+
+
                 textViewInfo.setText(tagInfo+"....");
             }
         }else{
